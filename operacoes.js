@@ -11,6 +11,10 @@ function multiplicarNathalia(a, b) {
 	return a * b;
 }
 
+function exponentiate(num, pwr) {
+    return num ** pwr;
+}
+
 // function responsavel por chamar a operacao passada como parametro
 function calculadora(a, b, operacao) {
 	return operacao(a, b);
